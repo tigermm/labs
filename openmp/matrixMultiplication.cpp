@@ -49,13 +49,7 @@ int main(int argc, char *argv[]) {
 
 	time_t timeStop = time(NULL) - timeStart;
 	cout << "Spend time: " << timeStop<< "\n\n";
-	
-	/*for (int i = 0; i < n; i++) {
-		for(int j = 0; j < k; j++) {
-			cout << result[i][j]<< " ";
-		}
-		cout << "\n";
-	}*/
+
 	for (int i = 0; i < n; i++) {
 		delete matrix1[i];
 		delete result[i];
