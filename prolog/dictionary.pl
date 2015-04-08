@@ -15,6 +15,6 @@ do(2):-!,write("English word = "),
 read(X),word(X,Y),write(X),write("--"),write(Y),nl,fail.
 
 do(3):-!,write("Russian word = "),read(Y),
-word(X,Y),write(X),write("--"),write(Y),nl,fail.
+word(X,Y),write(Y),write("--"),write(X),nl,fail.
 
 do(0).
