@@ -4,10 +4,9 @@ word('good','хороший').
 word('mouse','мышь').
 word('watch','часы').
 
-menu1:-repeat,write("1-All books"),nl,
-write("2-Find book by name"),nl,
-write("3-Find book by price"),nl,
-write("0-exit"),nl,nl,
+menu1:-repeat,write("1-All words"),nl,
+write("2-Translate to Russian"),nl,
+write("3-Translate to English"),nl,nl,
 read(N),do(N),N=0.
 
 do(1):-word(X,Y),write(X),write("--"),write(Y),nl,fail.
