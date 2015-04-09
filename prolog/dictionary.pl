@@ -3,6 +3,8 @@ word('friend','друг').
 word('good','хороший').
 word('mouse','мышь').
 word('watch','часы').
+word('clock','часы').
+word('watch','смотреть').
 
 menu1:-repeat,write("1-All words"),nl,
 write("2-Translate to Russian"),nl,
